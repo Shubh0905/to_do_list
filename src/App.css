@@ -1,0 +1,28 @@
+.App {
+  height:100%;
+  width:100%;
+  text-align: center;
+}
+.header{
+  height:25%;
+}
+.welcome{
+  height:6%;
+}
+.main{
+  height:60%;
+}
+.footer{
+  height:7%;
+}
+@media(max-height:550px){
+  .header{
+    height:48%;
+  }
+  .main{
+    height:55%;
+  }
+  .footer{
+    height:5%;
+  }
+}
